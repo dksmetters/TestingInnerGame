@@ -17,6 +17,7 @@
 		E75F39D024C4C6190014A250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75F39CE24C4C6190014A250 /* LaunchScreen.storyboard */; };
 		E75F39DB24C4C6190014A250 /* TestingInnerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F39DA24C4C6190014A250 /* TestingInnerGameTests.swift */; };
 		E75F39E624C4C6190014A250 /* TestingInnerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F39E524C4C6190014A250 /* TestingInnerGameUITests.swift */; };
+		E75F39F424C4C9660014A250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F39F324C4C9660014A250 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E75F39E124C4C6190014A250 /* TestingInnerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingInnerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75F39E524C4C6190014A250 /* TestingInnerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingInnerGameUITests.swift; sourceTree = "<group>"; };
 		E75F39E724C4C6190014A250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75F39F324C4C9660014A250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				E75F39BF24C4C6170014A250 /* AppDelegate.swift */,
 				E75F39C124C4C6170014A250 /* GameScene.sks */,
+				E75F39F324C4C9660014A250 /* ViewController.swift */,
 				E75F39C324C4C6170014A250 /* Actions.sks */,
 				E75F39C524C4C6170014A250 /* GameScene.swift */,
 				E75F39C724C4C6170014A250 /* GameViewController.swift */,
@@ -269,6 +272,7 @@
 			files = (
 				E75F39C624C4C6170014A250 /* GameScene.swift in Sources */,
 				E75F39C824C4C6170014A250 /* GameViewController.swift in Sources */,
+				E75F39F424C4C9660014A250 /* ViewController.swift in Sources */,
 				E75F39C024C4C6170014A250 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
